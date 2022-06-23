@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/rajiyyah/K8-Jenkins.git'
+        git branch: 'main', url: 'https://github.com/rajiyyah/K8-with-Jenkins.git'
       }
     }
 
